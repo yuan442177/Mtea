@@ -1,0 +1,39 @@
+<div class="ny_left">
+    <div class="ny_lmbt">
+        <h4>- {dede:field name="typename"/} -</h4>
+    </div>
+    <div class="lm_box">
+        <ul>
+            <!-- {dede:channel type='top' row='10' currentstyle="
+                <li><a href='~typelink~' class='Navactive' >~typename~</a> </li>
+                "}
+                <li><a href='[field:typelink/]' target="_self">[field:typename/]</a> </li>
+                {/dede:channel} -->
+            {dede:channel type='son' currentstyle="
+            <li>
+                <a href='~typelink~' class='LeftNav'>~typename~</a>
+            </li>
+            "}
+            <li>
+                <a href='[field:typelink /]'>[field:typename/]</a>
+            </li>
+            {/dede:channel}
+        </ul>
+    </div>
+
+</div>
+
+<!-- <div class="ny_left">
+        <div class="ny_lmbt"><h4>- 品牌建设 -</h4><p>BRAND</p>
+        </div>
+        <div class="lm_box">
+        <ul>
+                        <li><a href="brand.html"   style="background:#7a7a7a; color:#fff;">经营研发</a></li>
+        <li><a href="brand_14.html"   >形象设计</a></li>
+        <li><a href="brand_15.html"   >活动策划</a></li>
+        <li><a href="brand_16.html"   >产品研发</a></li>
+        </ul>
+        
+        </div>
+        
+        </div> -->

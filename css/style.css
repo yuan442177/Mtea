@@ -1,0 +1,201 @@
+ /* CSS Document */
+body{margin: 0px; padding: 0px; font: 14px/1.5 'Microsoft YaHei','微软雅黑', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', Arial, sans-serif,\5b8b\4f53; color:#666; background:#fff;}
+
+*{ margin:0px; padding:0px;}
+
+div,ul,li,h1,h2,h3,h4,span,p,dl,dd,img,dl,dt,dd{margin:0; padding:0; list-style:none;}
+
+h1,h2,h3,h4,h5{ font-weight:normal;}
+
+img{border:0;}
+
+a{color:#666; text-decoration:none;}
+
+a:hover{color:#333;text-decoration:none;}
+
+.fl{ float:left;}
+
+.fr{ float:right;}
+
+.clear{clear:both;}
+
+.nav_xt{ background:url("..images/nav_xt.jpg")/*tpa=http://www.mutea.cnimages/nav_xt.jpg*/ no-repeat center; color:#fff;}
+
+
+/*-----------------首页--------------------*/
+#heard{ width:100%; height:135px; background:url("../images/top_bg.jpg")/*tpa=http://www.mutea.cn/images/top_bg.jpg*/ repeat-y center; margin:0px auto;}
+.heard_box{ width:1000px; margin:0px auto; height:135px;}
+.heard_box .left{ float:left;}
+.heard_box .right{ float:right; height:75px; padding-top:60px;}
+
+
+#web_nav{ width:100%; height:50px; margin:0px auto;}
+.web_nav{ width:1000px; margin:0px auto; height:50px;}
+.web_nav ul{}
+.web_nav ul li{ float:left; width:111px; line-height:50px; text-align:center; font-size:15px; background:url("../images/nav_fgx.jpg")/*tpa=http://www.mutea.cn/images/nav_fgx.jpg*/ no-repeat right;}
+.web_nav ul li a{ display:block; color:#444;}
+.web_nav ul li a:hover{ background:url("../images/nav_xt.jpg")/*tpa=http://www.mutea.cnimages/nav_xt.jpg*/ no-repeat center; color:#fff;}
+
+/* banner */
+.banner{height:500px;overflow:hidden; clear:both;}
+.banner .d1{width:100%;height:500px;display:block;position:absolute; margin:0px auto;}
+.banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:99; margin:0px auto;}
+.banner .d2 ul{float:left;position:absolute;left:50%;top:0;margin:0 0 0 -35px;display:inline;}
+.banner .d2 li{width:17px;height:15px; *height:18px; overflow:hidden;cursor:pointer;background:url("../images/img1.png")/*tpa=http://www.mutea.cn/images/img1.png*/ no-repeat center;float:left;margin:460px 3px 0 3px;display:inline;}
+.banner .d2 li.nuw{background:url("../images/img1_1.png")/*tpa=http://www.mutea.cn/images/img1_1.png*/ no-repeat center;}
+
+.gy_banner{ width:100%; height:320px; overflow:hidden;}
+
+
+#sy_about{ width:100%; height:100%; margin:0px auto; overflow:hidden;}
+.sy_about{ width:1000px; height:100%; margin:0px auto;}
+.sy_title{ text-align:center; font-size:24px; color:#333; line-height:50px; margin:20px auto;}
+.sy_title p{ color:#666; font-family:Arial, Helvetica, sans-serif; line-height:30px;}
+
+.gushi{ width:1000px; height:417px; background:#7a7a7a; margin-bottom:20px;}
+.sy_about span{ float:right; width:84px; height:30px; line-height:30px; border:1px solid #bdbdbd; text-align:center; color:#fff; margin:15px 20px 0px 0px;}
+.sy_about h4{ line-height:60px; font-size:18px; color:#fff; text-indent:15px; background:url("../images/about_sx.jpg")/*tpa=http://www.mutea.cn/images/about_sx.jpg*/ no-repeat; background-position:0px 20px; margin-left:30px;}
+
+.jianjie{ width:490px; height:300px; background:#7a7a7a; float:left; margin-bottom:50px;}
+.cybg{ width:490px; height:300px; background:#7a7a7a;float:right; margin-bottom:50px;}
+
+
+#sy_pro{ width:100%; height:100%; margin:0px auto; overflow:hidden; background:url("../images/sy_hsbg.jpg")/*tpa=http://www.mutea.cn/images/sy_hsbg.jpg*/ repeat-y center;}
+.sy_pro{ width:1000px; height:100%; margin:0px auto;}
+
+.pro_qh{ width:490px; height:450px; background:#7a7a7a; float:left; margin-bottom:20px;}
+.cpjt{ width:120px; height:46px; float:right;}
+.cpjt p{width: 60px; height: 60px; display: block; float:left;}
+.cpjt p a{width: 60px; height: 60px; margin:0px;}
+.left_zt{cursor:pointer; float:left;}
+.right_zt{cursor:pointer; float:right;}
+#expertsses0{overflow: hidden; height:390px; }
+.js1{width:490px; overflow:hidden; float:left;}
+.js1 .ScrCont{width:10000000px;}
+#expertsses0 .ScrCont img{ width:490px; height:390px;}
+.pro_qh .bg{ width:490px; height:60px; line-height:60px;}
+.pro_qh .bg a{ color:#fff; font-size:18px;}
+.pro_qh .bg h4{ margin-left:25px;}
+
+.pro_xl{ width:490px; height:450px; background:#ccc; float:right; margin-bottom:20px;}
+.pro_xl ul li{ width:240px; float:left; margin-right:10px; margin-bottom:10px}
+.pro_xl ul li img{ width:240px; height:180px; display:block;}
+.pro_xl ul li p{ line-height:40px; background:#7a7a7a; text-align:center; color:#fff; display:block;}
+
+.pro_lb{ width:1000px; height:230px; clear:both; margin-bottom:50px;}
+.pro_lb ul li{ width:240px; float:left; margin-right:10px;}
+.pro_lb ul li img{ width:240px; height:190px; display:block;}
+.pro_lb ul li p{ line-height:40px; background:#7a7a7a; text-align:center; color:#fff; display:block;}
+
+#sy_store{ width:100%; height:100%; margin:0px auto; overflow:hidden;}
+.sy_store{ width:1000px; height:100%; margin:0px auto;}
+
+.rollBox{width:1000px; margin:0 auto; position:relative; margin-top:20px;}
+.rollBox .LeftBotton{height:40px;width:40px; background:url("../images/button_left.jpg")/*tpa=http://www.mutea.cn/images/button_left.jpg*/ no-repeat;overflow:hidden;float:left;display:inline;cursor:pointer; margin-top:110px; position:absolute; left:-60px; top:0px;}
+.rollBox .LeftBotton:hover{ background:url("../images/button_left.jpg")/*tpa=http://www.mutea.cn/images/button_left.jpg*/ 0px -40px no-repeat;}
+.rollBox .RightBotton{height:40px;width:40px;background:url("../images/button_right.gif")/*tpa=http://www.mutea.cn/images/button_right.gif*/ no-repeat;overflow:hidden;float:right;display:inline;cursor:pointer; margin-top:110px; position:absolute; right:-60px; top:0px;}
+.rollBox .RightBotton:hover{ background:url("../images/button_right.gif")/*tpa=http://www.mutea.cn/images/button_right.gif*/ 0px -40px no-repeat;}
+
+.rollBox .Cont{ width:1000px; overflow:hidden ;float:left; height:100%;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:320px;float:left;text-align:center; margin-right:20px;}
+.rollBox .Cont .pic img{ display:block;}
+.rollBox .Cont .pic p{ line-height:40px; height:40px; margin-bottom:20px;}
+
+.rollBox #List1,.rollBox #List2{float:left;}
+
+
+#sy_join{ width:100%; height:100%; margin:0px auto; overflow:hidden; background:url("../images/sy_hsbg.jpg")/*tpa=http://www.mutea.cn/images/sy_hsbg.jpg*/ repeat-y center;}
+.sy_join{ width:1000px; height:100%; margin:0px auto;}
+.jm_txt{ height:45px; margin-bottom:20px;}
+.jm_txt ul li{ width:160px; float:left; text-align:center; line-height:40px; background:url("../images/sy_jmxt.jpg")/*tpa=http://www.mutea.cn/images/sy_jmxt.jpg*/ no-repeat bottom; height:45px;}
+.jm_txt ul li a{ font-size:15px; color:#333;}
+
+#sy_dibu{ width:100%; height:100%; margin:0px auto; overflow:hidden; background:url("../images/dibu_bg.jpg")/*tpa=http://www.mutea.cn/images/dibu_bg.jpg*/ repeat-y center;}
+.sy_dibu{ width:1000px; height:80px; margin:0px auto; line-height:80px; color:#eae9e9;}
+
+#ny_hd{ width:100%; margin:0px auto; height:100%; overflow:hidden;}
+.ny_hdbox{ width:1000px; height:100%; overflow:hidden; margin:20px auto;}
+.ny_left{ width:200px; height:100%; float:left; overflow:hidden;}
+.ny_lmbt{ width:200px; height:75px; background:url("../images/ny_bt_bg.jpg")/*tpa=http://www.mutea.cn/images/ny_bt_bg.jpg*/ no-repeat; text-align:center;}
+.ny_lmbt h4{ font-size:22px; color:#fff; line-height:75px;}
+.ny_lmbt p{ line-height:20px; color:#ddd;}
+
+.lm_box{ width:198px; height:100%; border:1px solid #7a7a7a; padding-bottom:10px;}
+.lm_box ul{ width:188px; margin:10px auto;}
+.lm_box ul li{ text-align:center; line-height:36px;}
+.lm_box ul li a{ display:block;}
+.lm_box ul li a:hover{ background:#7a7a7a; color:#fff; -webkit-transition: 0.2s; transition: 0.2s;}
+
+.ny_right{ width:780px; height:100%; float:right; overflow:hidden;}
+.ny_right .title{ height:42px; width:780px; border-bottom:1px solid #7a7a7a; background:url("../images/ny_btxt.jpg")/*tpa=http://www.mutea.cn/images/ny_btxt.jpg*/ no-repeat; font-size:18px; line-height:42px; text-indent:10px; background-position:0 12px; color:#333;}
+.ny_right .title span{ float:right; color:#999; line-height:30px; margin-top:5px; font-size:14px;}
+
+.about_hd{ width:780px; height:100%; padding-bottom:20px; padding-top:10px;}
+.about_hd p{ line-height:26px; margin-bottom:10px;}
+
+.ny_qiehuan{ width:780px; height:38px; text-align:center; margin:20px auto 10px auto;}
+.ny_qiehuan ul{ display:inline-block; *display:inline; *zoom:1;}
+.ny_qiehuan ul li{ width:95px; height:38px; background:url("../images/ny_xxk_bg.jpg")/*tpa=http://www.mutea.cn/images/ny_xxk_bg.jpg*/ no-repeat; text-align:center; line-height:34px; float:left; margin-right:2px;}
+.ny_qiehuan ul li:hover{ background:url("../images/ny_xxk_xt.jpg")/*tpa=http://www.mutea.cn/images/ny_xxk_xt.jpg*/ no-repeat;}
+.ny_qiehuan ul li a{ display:block;}
+.ny_qiehuan ul li a:hover{ color:#fff; display:block;}
+
+.brand_hd{ width:780px; height:100%; padding-bottom:20px; padding-top:10px;}
+
+
+.product_hd{ width:780px; height:100%; padding-bottom:20px; padding-top:20px; padding-left:10px;}
+.product_hd ul li{ width:240px; float:left; margin-right:20px; margin-bottom:20px;}
+.product_hd ul li img{ width:240px; height:190px; display:block;}
+.product_hd ul li p{ line-height:40px; background:#7a7a7a; text-align:center; color:#fff; display:block;}
+
+.fanye{ text-align:center; height:24px; *margin-top:12px; padding-top:15px;}
+.fanye_box{ display:inline-block; *display:inline; *zoom:1;}
+.fanye a{ display:block; float:left; text-align:center; height:24px; padding:0px 10px; background:#e3e3e3; margin-right:2px; line-height:24px;}
+.fanye a:hover{ background:#7a7a7a; color:#fff;}
+
+
+.culture_hd{ width:780px; height:100%; padding-bottom:20px; padding-top:20px; padding-left:10px;}
+.culture_hd ul li{ width:240px; float:left; margin-right:20px;}
+.culture_hd ul li img{ width:245px; height:188px; display:block;}
+.culture_hd ul li p{ line-height:40px; text-align:center; display:block;}
+
+.news_hd{ width:700px; margin:10px 0px 25px 10px;}
+.news_hd ul{ padding-bottom:25px;}
+.news_hd ul li{ line-height:40px; border-bottom:1px dashed #ddd; background:url("../images/xw_pic.jpg")/*tpa=http://www.mutea.cn/images/xw_pic.jpg*/ no-repeat; text-indent:20px; background-position:0px 15px;}
+.news_hd ul li span{ float:right; color:#999; font-size:12px;}
+
+.contact_hd{ width:780px; height:100%; padding-bottom:20px; padding-top:10px;}
+.contact_hd h4{ font-size:18px; color:#333; line-height:40px;}
+.contact_hd p{ line-height:30px;}
+
+
+.message{ width:716px;height:350px; display:block; margin-top:20px; margin-bottom:150px;}
+
+.message form span{ width:706px;display:block; margin-bottom:8px; margin-left:10px; overflow:hidden;}
+
+.message form span b{ width:85px; height:34px; line-height:34px; float:left; font-weight:normal;}
+
+.input3{ width:218px;height:23px; display:block; border:1px solid #cecece; float:left;}
+
+.message form span label{ float:left;}
+
+.message form span textarea{ width:350px;height:100px; display:block; border:1px solid #cfcfcf;}
+
+.anniu3{ width:97px; height:32px; display:block; background:url("../images/pic26.jpg")/*tpa=http://www.mutea.cn/images/pic26.jpg*/ no-repeat; border:none; cursor:pointer; margin-left:100px; margin-top:20px;}
+
+.news_xqy{ width:700px; margin:20px 0px 25px 20px;}
+.news_xqy h4{ text-align:center; font-size:18px; line-height:30px; border-bottom:1px solid #ddd; color:#333; margin-bottom:10px;}
+.news_xqy h4 p{ font-size:14px; color:#999;}
+.news_xqy p{ margin-bottom:10px; line-height:26px;}
+
+.pro_xqy{ width:724px; margin:30px;}
+.pro_xqy .datu{ width:500px; border:1px solid #ddd; margin:0px auto;}
+.pro_xqy h4{ text-align:center; font-size:16px; line-height:40px; margin-bottom:10px;}
+
+.Navactive{
+    background:url(../images/nav_xt.jpg) no-repeat center; color:#fff !important;
+}
+.LeftNav{
+    background:#7a7a7a; color:#fff;
+}

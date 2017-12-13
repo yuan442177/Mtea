@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{dede:global.cfg_webname/}</title>
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <link href="{dede:global.cfg_templets_skin/}/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/main.js"></script>
+</head>
+
+<body>
+
+    <!--头部-->
+    <header id="heard">
+        <div class="heard_box">
+            <div class="left">
+                <a href="{dede:global.cfg_indexurl/}">
+                    {dede:arclist idlist='111'}
+                    <img src="[field:litpic/]" />
+                    {/dede:arclist}
+                </a>
+            </div>
+            <div class="right">
+                <!-- <a href="mucha/Contact"> -->
+                    {dede:arclist idlist='112'}
+                    <img src="[field:litpic/]" width="325" height="75" />
+                    {/dede:arclist}
+                <!-- </a> -->
+            </div>
+
+        </div>
+    </header>
+
+    <!--导航-->
+    <nav id="web_nav">
+        <div class="web_nav">
+            <ul>
+                <li class=""><a href="{dede:global.cfg_indexurl/}">{dede:global.cfg_indexname/}</a></li>
+                {dede:channel type='top' row='10' currentstyle="
+                <li><a href='~typelink~' class='Navactive' >~typename~</a> </li>
+                "}
+                <li><a href='[field:typelink/]' target="_self">[field:typename/]</a> </li>
+                {/dede:channel}
+            </ul>
+
+        </div>
+
+    </nav>
+    
+
+    <script type=text/javascript>
+         var sfEls = document.getElementById("web_nav").getElementsByTagName("li");
+         //console.log(sfEls)
+         for (var i=0; i<sfEls.length; i++) {
+          sfEls[i].onmouseover=function() {
+          this.className+=(this.className.length>0? " ": "") + "sfhover";
+          }
+          sfEls[i].onMouseDown=function() {
+          this.className+=(this.className.length>0? " ": "") + "sfhover";
+          }
+          sfEls[i].onMouseUp=function() {
+          this.className+=(this.className.length>0? " ": "") + "sfhover";
+          }
+          sfEls[i].onmouseout=function() {
+          this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+        
+        "");
+          }
+         }
+        }
+        window.onload=menuFix;  
+    </script>

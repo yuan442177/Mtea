@@ -1,0 +1,146 @@
+{dede:include filename="header.htm"/} 
+{dede:include filename="banner.htm"/}
+
+<script language="javascript">
+
+
+
+	window.onload = function () {
+		document.getElementById('captcha').innerHTML = '<img alt="点击刷新验证码" src="captcha.php.png"/*tpa=http://www.mutea.cn/captcha.php*/ style="cursor:pointer" onclick="this.src=this.src+\'?\'" />';
+	}
+
+
+
+	function valid_form(theForm) {
+
+		if (theForm.name.value == "") {
+
+			alert("请输入姓名!");
+
+			return false;
+
+		}
+
+
+		if (theForm.tel.value == "") {
+
+			alert("请输入联系电话!");
+
+			return false;
+
+		}
+
+		if (theForm.email.value == "") {
+
+			alert("请输入邮箱!");
+
+			return false;
+
+		}
+
+		if (theForm.captcha.value == "") {
+
+			alert("请输入验证码!");
+
+			return false;
+
+		}
+
+
+
+
+	}
+
+
+
+	function RefreshImage() {
+
+		var elid = document.getElementById("imcode");
+
+		elid.src = elid.src + '?';
+
+	}
+
+</script>
+
+
+<!--内容-->
+<div id="ny_hd">
+	<div class="ny_hdbox">
+
+		<div class="ny_left">
+			<div class="ny_lmbt">
+				<h4>- 联系我们 -</h4>
+				<p>CONTACT</p>
+			</div>
+			<div class="lm_box">
+				<ul>
+					<li>
+						<a href="contact.html" style="background:#7a7a7a; color:#fff;">联系方式</a>
+					</li>
+					<li>
+						<a href="contact_28.html">在线留言</a>
+					</li>
+					<li>
+						<a href="contact_35.html">电子地图</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="ny_right">
+			<div class="title">
+				<span>
+					<a href="index.htm">首页</a> -
+					<a href="contact.html">联系我们</a> -
+					<a href="#">联系方式</a>
+				</span>联系方式</div>
+			<div class="contact_hd">
+
+				<p>
+					<img src="ueditor/php/upload/image/20170106/1483701136457699.jpg" title="1483701136457699.jpg" alt="幻灯片23.jpg" />
+				</p>
+				<p>
+					<br/>
+				</p>
+				<p>慕茶
+					<a href="join.html" target="_self">奶茶加盟</a>，小小的我，有大大的梦</p>
+			</div>
+		</div>
+
+
+
+
+	</div>
+</div>
+
+
+<p align="center"> 友情链接：
+	<a href="javascript:if(confirm('http://www.clc777.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.clc777.cn/'"
+	 target='_blank'>食堂承包网</a>|
+	<a href="javascript:if(confirm('http://www.zjrdcy.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.zjrdcy.com/'"
+	 target='_blank'>饭堂承包</a>|
+	<a href="javascript:if(confirm('http://www.mx668.com.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.mx668.com.cn/'"
+	 target='_blank'>电动餐桌</a>|
+	<a href="javascript:if(confirm('http://www.juhemulu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.juhemulu.com/'"
+	 target='_blank'>聚合目录</a>|
+	<a href="javascript:if(confirm('http://www.yoyone.net/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.yoyone.net/'"
+	 target='_blank'>优选网站目录</a>|
+	<a target="_blank" href="javascript:if(confirm('http://www.tuiwailian.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.tuiwailian.com/'">流量联盟</a>
+</p>
+<div id="sy_dibu">
+	<div class="sy_dibu">
+		<span style=" float:right;">
+			<a href="javascript:if(confirm('http://www.miitbeian.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.miitbeian.gov.cn/'"
+			 target="_blank" style="color:#eae9e9;" rel="nofollow">粤ICP备12078828号</a>&nbsp;&nbsp;&nbsp;&nbsp;技术支持：神州通达网络</a>
+		</span>
+		深圳市麦卡森餐饮管理有限公司版权所有
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1269469861'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269469861%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+</div>
+</body>
+
+</html>

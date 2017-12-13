@@ -1,0 +1,34 @@
+{dede:include filename="header.htm"/} {dede:include filename="banner.htm"/}
+
+<div id="ny_hd">
+    <div class="ny_hdbox">
+
+        {dede:include filename="LeftNav.htm"/}
+
+        <div class="ny_right">
+            <div class="title">
+                <span></span>产品展示</div>
+            <div class="product_hd">
+                <ul>
+                    {dede:list typeid='7' pagesize='9' orderby='senddate' col='5' info='20'}
+                    <li>
+                        <a href="[field:arcurl/]">
+                            <img src="[field:picname/]" alt="[field:title/]" width="240" height="190" />
+                            <p>[field:title/]</p>
+                        </a>
+                    </li>
+                    {/dede:list}
+                </ul>
+                <div class="fanye clear">
+                    <div class="fanye_box">
+                        <li> {dede:pagelist listsize='4' listitem='index pre pageno next end option'/} </li>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{dede:include filename="footer.htm"/}
